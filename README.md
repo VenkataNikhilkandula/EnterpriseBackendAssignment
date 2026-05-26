@@ -285,6 +285,3 @@ http://localhost:8080/actuator/health
 * springdoc-openapi
 
 ---
-
-
-This project is developed for educational and learning purposes.
