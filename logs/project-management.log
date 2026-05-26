@@ -1,0 +1,32 @@
+2026-05-26 10:23:16 [restartedMain] INFO  c.e.EnterpriseBackendAssignmentApplication - Starting EnterpriseBackendAssignmentApplication using Java 23.0.1 with PID 9692 (C:\Users\kvenk\stackly\eclipse-workspace\EnterpriseBackendAssignment\target\classes started by kvenk in C:\Users\kvenk\stackly\eclipse-workspace\EnterpriseBackendAssignment)
+2026-05-26 10:23:16 [restartedMain] INFO  c.e.EnterpriseBackendAssignmentApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-26 10:23:16 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-26 10:23:16 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-26 10:23:18 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-26 10:23:18 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 5 JPA repository interfaces.
+2026-05-26 10:23:19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-05-26 10:23:19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-26 10:23:19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-05-26 10:23:19 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-26 10:23:19 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2345 ms
+2026-05-26 10:23:19 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-26 10:23:19 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-05-26 10:23:19 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-05-26 10:23:19 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-26 10:23:19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - ProjectManagementHikariCP - Starting...
+2026-05-26 10:23:20 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - ProjectManagementHikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bd0ba0b
+2026-05-26 10:23:20 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - ProjectManagementHikariCP - Start completed.
+2026-05-26 10:23:20 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-26 10:23:21 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-26 10:23:21 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-26 10:23:23 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-05-26 10:23:23 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 15 endpoints beneath base path '/actuator'
+2026-05-26 10:23:23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-05-26 10:23:23 [restartedMain] INFO  c.e.EnterpriseBackendAssignmentApplication - Started EnterpriseBackendAssignmentApplication in 7.225 seconds (process running for 7.796)
+2026-05-26 10:23:24 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-26 10:23:24 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-26 10:23:24 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-05-26 10:23:30 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-05-26 10:23:30 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-26 10:23:30 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - ProjectManagementHikariCP - Shutdown initiated...
+2026-05-26 10:23:30 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - ProjectManagementHikariCP - Shutdown completed.
